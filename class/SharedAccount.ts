@@ -5,7 +5,7 @@ export class SharedAccount extends DioAccount {
     super(name, accountNumber)
     }
     
-    deposit = (value: number) => {
-     this.setBalance(value + 10)
+    deposit = (valueDeposit: number) => {
+     this.setBalance(valueDeposit + 10)
     }
 }
