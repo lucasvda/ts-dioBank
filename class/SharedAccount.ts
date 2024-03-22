@@ -8,4 +8,5 @@ export class SharedAccount extends DioAccount {
     deposit = (valueDeposit: number) => {
      this.setBalance(valueDeposit + 10)
     }
+    // teste
 }
